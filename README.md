@@ -10,8 +10,6 @@ The PEBNF module implements probabilistic sea surface temperature (SST) reconstr
 
 The `code.ipynb` notebook contains the core PEBNF implementation, including neural-field fitting, ensemble-based probabilistic prediction, predictive-quantile generation, and spatial grid mapping.
 
-The subsequent AOQS-based quantile selection and relative uncertainty (RU) computation are performed separately.
-
 ### 2. RUGM Forecasting
 
 The RUGM module implements uncertainty-guided SST forecasting using an encoder-decoder ConvLSTM architecture.
